@@ -1,0 +1,35 @@
+<nav class='text-dark navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-warning border-bottom box-shadow mb-3'>
+    <img src="https://www.iconpacks.net/icons/1/free-building-icon-1062-thumb.png" alt="temp" style="width:105px;height:105px;">
+    <a class="navbar-brand text-dark" [routerLink]='["/"]'>Firma budowlana</a>
+    <button class="navbar-toggler bg-dark text-dark" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+        <ul class="navbar-nav flex-grow">
+            <li class="nav-item" [routerLinkActive]='["link-active"]' [routerLinkActiveOptions]='{ exact: true }'>
+                <a class="nav-link text-dark" [routerLink]='["/offer"]'>Oferta</a>
+            </li>
+            <li class="nav-item" [routerLinkActive]='["link-active"]'>
+                <a class="nav-link text-dark" [routerLink]='["/calculator"]'>Kalkulator</a>
+            </li>
+            <li class="nav-item" [routerLinkActive]='["link-active"]'>
+                <a class="nav-link text-dark" [routerLink]='["/gallery"]'>Galeria</a>
+            </li>
+            <li class="nav-item" [routerLinkActive]='["link-active"]'>
+                <a class="nav-link text-dark" [routerLink]='["/our-crew"]'>Pracownicy</a>
+            </li>
+            <li class="nav-item" [routerLinkActive]='["link-active"]'>
+                <a class="nav-link text-dark" [routerLink]='["/recrutation"]'>Rekrutacja</a>
+            </li>
+            <li class="nav-item" [routerLinkActive]='["link-active"]'>
+                <a class="nav-link text-dark" [routerLink]='["/cooperation"]'>Współpraca</a>
+            </li>
+            <li class="nav-item" [routerLinkActive]='["link-active"]'>
+                <a class="nav-link text-dark" [routerLink]='["/info"]'>Informacje</a>
+            </li>
+            <li class="nav-item" [routerLinkActive]='["link-active"]'>
+                <a class="nav-link text-dark" [routerLink]='["/contact"]'>Kontakt</a>
+            </li>
+        </ul>
+    </div>
+</nav>
